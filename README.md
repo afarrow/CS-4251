@@ -1,4 +1,4 @@
-Directions:
+## Directions:
 You need to write an Internet Time and Weather Service (ITWS) software
 package, which consists of a server program and a client program.  The
 client program allows a user to make time and weather queries in an
@@ -13,10 +13,10 @@ multi-processing (covered in class) or multi-threading in designing
 the server code.  You are also required to program it using either C
 or C++.
 
-To run, run the following commands:
-gcc -o client client.c
-gcc -pthread -o server server.c
+### To run, run the following commands:
+* gcc -o client client.c
+* gcc -pthread -o server server.c
 
-Then:
-./server to run the server
-./client to run the client
+### Then:
+* ./server to run the server
+* ./client to run the client
